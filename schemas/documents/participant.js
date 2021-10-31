@@ -37,5 +37,11 @@ export default {
       type: 'reference',
       to: [{ type: 'quiz' }],
     },
+    {
+      name: 'captchaScore',
+      title: 'Spam Score',
+      type: 'number',
+      description: 'from 0 (bad) to  1 (good)',
+    },
   ],
 };
